@@ -6,3 +6,153 @@ Green: #00B172
 White: #FFF
 
 */
+
+html {
+    font-size: 16px;
+    margin: 0;
+    font-family: 'AR One Sans', sans-serif;
+}
+body {
+    background-color: white;
+    color: black;
+
+}
+header {
+
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 20px 0 20px 0;
+    padding: 400px 0 400px 0;;
+}
+
+header h1{
+    font-size: 5rem;
+}
+header p{
+    font-size: 1.8rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+nav {
+    display: flex;
+    position: fixed;
+    background-color: white;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em 5% 2.5em 5%;
+    height: 90px;
+}
+
+nav div img{
+    height: 100px;
+    width: 100%;
+}
+nav ul {
+    font-size: 1.8rem;
+    display: flex;  
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 5px;
+    margin-right: 1em;
+    padding-right: 2em;
+
+}
+nav a {
+    padding-right: 5rem;
+    text-decoration: none;
+    color: black;
+}
+nav li {
+    
+}
+header img {
+    display: flex;
+    justify-content: flex-start;
+    background-size: 100%;
+}
+
+/*dejo el header para luego*/
+/*INICIO SECCION 1*/
+#caracteristicas h2 {
+    font-size: 2.5rem;
+    text-align: center;   
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container div{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*background-color: lightcoral;*/
+    margin-right: 10px;
+     /*porque no puedo ponerle bordes de color?*/
+     align-items: center;
+     
+}
+.container img {
+    padding-top: 20px;
+    height: 30%;
+    width: 32%;
+}
+.box p{
+    padding: 0 50px 0 50px;
+}
+ .box h4 {
+    font-size: 1.8rem;
+    color:#1db954 ;
+ }
+/*INICIO SECCION 2*/
+
+#reproductor {
+    position: relative;
+    background-color: #1db954;
+    color: white;
+    padding-left: 60px;
+    padding-bottom: 100px;
+    width: 100%;
+}
+
+#reproductor h2{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5em ;
+    line-height: 15pt;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+#reproductor h4{
+    font-size: 2rem;
+}
+
+#reproductor p{
+    font-size: 1.2rem;
+}
+
+#reproductor #icon{
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    height: 180px;
+    width: 180px;
+    padding: 20px;
+    margin: -70px 0 0 -170px;
+
+}
+
+#reproductor #app {
+    position: absolute;
+    height: 600px;
+    width: 350px;
+    right: 0;
+    padding-top: 40px;
+    padding-right: 100px;
+}
